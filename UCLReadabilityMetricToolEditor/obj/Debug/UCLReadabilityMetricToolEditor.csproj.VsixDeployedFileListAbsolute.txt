@@ -1,0 +1,3 @@
+C:\Users\Manoj Vaseekharan\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Manoj Vaseekharan, Oliver Tun, Edward James, Julian Lim\UCLReadabilityMetricToolEditor\1.0\\UCLReadabilityMetricToolEditor.dll
+C:\Users\Manoj Vaseekharan\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Manoj Vaseekharan, Oliver Tun, Edward James, Julian Lim\UCLReadabilityMetricToolEditor\1.0\\extension.vsixmanifest
+C:\Users\Manoj Vaseekharan\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Manoj Vaseekharan, Oliver Tun, Edward James, Julian Lim\UCLReadabilityMetricToolEditor\1.0\\UCLReadabilityMetricToolEditor.pdb
