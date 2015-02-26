@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="ClassManager.cs" />
     <Compile Include="LineFrequency.cs" />
+    <Compile Include="MouseTracker.cs" />
     <Compile Include="TextViewCreationListener.cs" />
     <Compile Include="UCLReadabilityMetricToolEditorFormat.cs" />
     <Compile Include="UCLReadabilityMetricToolEditorType.cs" />

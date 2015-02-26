@@ -65,7 +65,7 @@ namespace UCLReadabilityMetricToolEditor
             dateTime = dateTime.Replace("/", "--");
             Directory.CreateDirectory("/" + className);
 
-            String path = "/" + className + "/" + dateTime+".txt";
+            String path = "/" + className + "/" + dateTime + ".txt";
 
             using(StreamWriter tw = new StreamWriter(path,true))
             {
@@ -77,12 +77,15 @@ namespace UCLReadabilityMetricToolEditor
                     {
                         tw.WriteLine(j + 1 + "," + lineFrequency.getLineCounters()[i][j]);
                     }
+                    lineFrequency.getMouseTracker().outputMouseDump(tw);
                     tw.WriteLine("-----");
                     tw.WriteLine("End session:" + lineFrequency.getEndTimes()[i]);
                     tw.WriteLine("----------");
                 }
                 tw.Close();
             }
+
+            lineFrequency.getMouseTracker().printMouseRecordDump();
 
                
         }

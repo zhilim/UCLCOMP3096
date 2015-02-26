@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Threading;
 
+
 namespace UCLReadabilityMetricToolEditor
 {
     public class LineFrequency
@@ -33,14 +34,19 @@ namespace UCLReadabilityMetricToolEditor
         //current session's line counter
         private int[] currentLineCounter;
 
-        public LineFrequency(IWpfTextView view, DateTime dt)
+        //current session's mousetracker
+        private MouseTracker mtracker;
+      
+
+        public LineFrequency(IWpfTextView inview, DateTime dt)
         {
-            this.view = view;
+            view = inview;
             this.start = dt;
             startTimes = new List<DateTime>();
             endTimes = new List<DateTime>();
             lineCounters = new List<int[]>();
             currentLineCounter = new int[view.TextSnapshot.LineCount];
+            mtracker = new MouseTracker(inview);
             SetupTimer();
         }
 
@@ -70,6 +76,7 @@ namespace UCLReadabilityMetricToolEditor
             timer.Interval = TimeSpan.FromMilliseconds(interval);
             timer.Tick += timer_Tick;
             timer.Start();
+            mtracker.setTimerOn(true);
         }
 
         public void PauseTimer()
@@ -88,9 +95,12 @@ namespace UCLReadabilityMetricToolEditor
 
             //stop timer
             timer.Stop();
+            mtracker.setTimerOn(false);
 
             //reinitialise the linecounter
             currentLineCounter = new int[view.TextSnapshot.LineCount];
+
+            //timerOn = false;
         }
 
         public void ResumeTimer()
@@ -98,6 +108,7 @@ namespace UCLReadabilityMetricToolEditor
             Debug.WriteLine("Timer resumed.");
             start = DateTime.Now;
             timer.Start();
+            mtracker.setTimerOn(true);
         }
 
 
@@ -116,6 +127,7 @@ namespace UCLReadabilityMetricToolEditor
             {
                 currentLineCounter[i]++;
             }
+            mtracker.updateMouseRecordDump();
         }
 
         public void setIWpfTextView(IWpfTextView textView)
@@ -158,5 +170,12 @@ namespace UCLReadabilityMetricToolEditor
 
             
         }
+
+        public MouseTracker getMouseTracker()
+        {
+            return mtracker;
+        }
+
+       
     }
 }

@@ -6,3 +6,11 @@ c:\users\manoj vaseekharan\documents\visual studio 2013\Projects\UCLReadabilityM
 c:\users\manoj vaseekharan\documents\visual studio 2013\Projects\UCLReadabilityMetricToolEditor\UCLReadabilityMetricToolEditor\obj\Debug\UCLReadabilityMetricToolEditor.pdb
 c:\users\manoj vaseekharan\documents\visual studio 2013\Projects\UCLReadabilityMetricToolEditor\UCLReadabilityMetricToolEditor\obj\Debug\extension.vsixmanifest
 c:\users\manoj vaseekharan\documents\visual studio 2013\Projects\UCLReadabilityMetricToolEditor\UCLReadabilityMetricToolEditor\obj\Debug\UCLReadabilityMetricToolEditor.csprojResolveAssemblyReference.cache
+C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\bin\Debug\UCLReadabilityMetricToolEditor.dll
+C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\bin\Debug\UCLReadabilityMetricToolEditor.pdb
+C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\bin\Debug\UCLReadabilityMetricToolEditor.vsix
+C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\bin\Debug\extension.vsixmanifest
+C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\obj\Debug\UCLReadabilityMetricToolEditor.csprojResolveAssemblyReference.cache
+C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\obj\Debug\UCLReadabilityMetricToolEditor.dll
+C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\obj\Debug\UCLReadabilityMetricToolEditor.pdb
+C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\obj\Debug\extension.vsixmanifest
