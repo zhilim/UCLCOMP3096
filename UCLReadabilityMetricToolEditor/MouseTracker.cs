@@ -57,7 +57,7 @@ namespace UCLReadabilityMetricToolEditor
             }
             public void print()
             {
-                Debug.WriteLine("X: " + point.X + " Y: " + point.Y + " Time: " + time);
+                Debug.WriteLine("mX: " + point.X + " mY: " + point.Y + " Time: " + time);
             }
         }
 
@@ -78,7 +78,7 @@ namespace UCLReadabilityMetricToolEditor
         {
             foreach (MouseRecord m in mouseRecordDump)
             {
-                tw.WriteLine("X:" + m.point.X + ", Y:" + m.point.Y + ", Time:" + m.time);
+                tw.WriteLine("mX:" + m.point.X + ", mY:" + m.point.Y + ", Time:" + m.time);
             }
         }
 
@@ -138,7 +138,7 @@ namespace UCLReadabilityMetricToolEditor
                     mousePos = e.GetPosition((IInputElement) view);
                     //adjust Y values relative to entire text, not just viewport
                     mousePos.Y += view.LineHeight * (view.TextSnapshot.GetLineNumberFromPosition(view.TextViewLines.FirstVisibleLine.Start));
-                    Debug.WriteLine("X: " + mousePos.X + " Y: " + mousePos.Y);
+                    //Debug.WriteLine("X: " + mousePos.X + " Y: " + mousePos.Y);
 
                 }
 
@@ -151,7 +151,7 @@ namespace UCLReadabilityMetricToolEditor
                 {
                     mousePos = e.GetPosition((IInputElement)view);
                     mousePos.Y += view.LineHeight * (view.TextSnapshot.GetLineNumberFromPosition(view.TextViewLines.FirstVisibleLine.Start));
-                    Debug.WriteLine("X: " + mousePos.X + " Y: " + mousePos.Y);
+                    //Debug.WriteLine("X: " + mousePos.X + " Y: " + mousePos.Y);
                 }
             }
         }

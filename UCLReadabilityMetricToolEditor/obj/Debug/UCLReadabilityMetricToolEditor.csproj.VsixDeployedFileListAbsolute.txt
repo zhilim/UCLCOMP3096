@@ -1,3 +1,6 @@
 C:\Users\Jason Lim\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Manoj Vaseekharan, Oliver Tun, Edward James, Julian Lim\UCLReadabilityMetricToolEditor\1.0\\UCLReadabilityMetricToolEditor.dll
+C:\Users\Jason Lim\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Manoj Vaseekharan, Oliver Tun, Edward James, Julian Lim\UCLReadabilityMetricToolEditor\1.0\\Newtonsoft.Json.dll
+C:\Users\Jason Lim\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Manoj Vaseekharan, Oliver Tun, Edward James, Julian Lim\UCLReadabilityMetricToolEditor\1.0\\TETControls.dll
+C:\Users\Jason Lim\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Manoj Vaseekharan, Oliver Tun, Edward James, Julian Lim\UCLReadabilityMetricToolEditor\1.0\\TETCSharpClient.dll
 C:\Users\Jason Lim\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Manoj Vaseekharan, Oliver Tun, Edward James, Julian Lim\UCLReadabilityMetricToolEditor\1.0\\extension.vsixmanifest
 C:\Users\Jason Lim\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Manoj Vaseekharan, Oliver Tun, Edward James, Julian Lim\UCLReadabilityMetricToolEditor\1.0\\UCLReadabilityMetricToolEditor.pdb

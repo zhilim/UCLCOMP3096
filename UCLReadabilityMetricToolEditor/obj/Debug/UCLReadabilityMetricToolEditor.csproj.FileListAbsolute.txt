@@ -10,7 +10,8 @@ C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\
 C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\bin\Debug\UCLReadabilityMetricToolEditor.pdb
 C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\bin\Debug\UCLReadabilityMetricToolEditor.vsix
 C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\bin\Debug\extension.vsixmanifest
-C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\obj\Debug\UCLReadabilityMetricToolEditor.csprojResolveAssemblyReference.cache
+C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\obj\Debug\UCLReadabilityMetricToolEditor.dll
 C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\obj\Debug\UCLReadabilityMetricToolEditor.pdb
 C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\obj\Debug\extension.vsixmanifest
+C:\Users\Jason Lim\Desktop\EyeGazing\UCLCOMP3096\UCLReadabilityMetricToolEditor\obj\Debug\UCLReadabilityMetricToolEditor.csprojResolveAssemblyReference.cache

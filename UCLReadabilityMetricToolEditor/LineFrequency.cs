@@ -36,6 +36,12 @@ namespace UCLReadabilityMetricToolEditor
 
         //current session's mousetracker
         private MouseTracker mtracker;
+
+        private EyeTracker eyetracker;
+
+        
+
+        
       
 
         public LineFrequency(IWpfTextView inview, DateTime dt)
@@ -47,6 +53,8 @@ namespace UCLReadabilityMetricToolEditor
             lineCounters = new List<int[]>();
             currentLineCounter = new int[view.TextSnapshot.LineCount];
             mtracker = new MouseTracker(inview);
+            eyetracker = new EyeTracker(inview);
+           
             SetupTimer();
         }
 
@@ -128,6 +136,8 @@ namespace UCLReadabilityMetricToolEditor
                 currentLineCounter[i]++;
             }
             mtracker.updateMouseRecordDump();
+            eyetracker.updateGazeDump();
+            Debug.WriteLine("Viewport Top: " + view.ViewportTop);
         }
 
         public void setIWpfTextView(IWpfTextView textView)
@@ -174,6 +184,11 @@ namespace UCLReadabilityMetricToolEditor
         public MouseTracker getMouseTracker()
         {
             return mtracker;
+        }
+
+        public EyeTracker getEyeTracker()
+        {
+            return eyetracker;
         }
 
        

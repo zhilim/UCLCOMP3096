@@ -78,6 +78,7 @@ namespace UCLReadabilityMetricToolEditor
                         tw.WriteLine(j + 1 + "," + lineFrequency.getLineCounters()[i][j]);
                     }
                     lineFrequency.getMouseTracker().outputMouseDump(tw);
+                    lineFrequency.getEyeTracker().outputGazeDump(tw);
                     tw.WriteLine("-----");
                     tw.WriteLine("End session:" + lineFrequency.getEndTimes()[i]);
                     tw.WriteLine("----------");
